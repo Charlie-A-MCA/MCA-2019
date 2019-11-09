@@ -19,4 +19,4 @@ When it comes to notated music, it is possible to find sheet music for most of t
 
 As already mentioned, acoustic data can be found on all major streaming services as well as YouTube where it is published both on the band’s official channel and on other channels as live concerts, lyrics videos, fan covers etc. 
 
-[week 2: Notated Music](https://github.com/katja-andric/MCA-2019/LabTasks/week2/week2.html)
+[>>week 2: Notated Music](https://katja-andric.github.io/MCA-2019/LabTasks/week2/week2.html)
