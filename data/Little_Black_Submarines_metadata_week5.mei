@@ -11,9 +11,8 @@
                 <arranger> Anna Poole </arranger>
                 <respStmt>
                   <resp> Encoded by </resp>
-                  <name> Katja Andric </name>
+                  <persName> Katja Andric </persName>
                 </respStmt>
-                <extent unit="Kbytes"> 528 </extent>
             </titleStmt>
             <editionStmt>
               <title> Little Black Submarines - The Black Keys </title>
@@ -24,8 +23,6 @@
                 <resp> Published on </resp>
                 <name> MuseScore.com </name>
               </respStmt>
-              <annot> <p> Originally, the arrangement is for a piano and a clarinet, but it was transcribed to be for a piano and
-               voice by transposing the clarined diatonically down by a second. </p> </annot>
             </editonStmt>
             <pubStmt>
               <publisher> Katja Andric </publisher>
@@ -57,10 +54,7 @@ authority="Creative Commons"> Creative Commons Attribution 4.0 International, CC
         <workList>
           <title> Little Black Submarines </title>
           <composer> The Black Keys </composer>
-          <lyricst>
-            <name> Dan Auerbach </name>
-            <name> Patrick Carney </name>
-            <name> Danger Mouse </name>
+          <lyricst> Dan Auerbach 
           </lyricst>
           <creation>
             <date> 2011 </date>
