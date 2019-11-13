@@ -3,140 +3,20 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-         <fileDesc>
-         <titleStmt>
-            <title xml:id="title12345">Etude in F Minor</title>
-            <title type="subordinate">op. 10, no. 9</title>
-            <title type="subordinate">an electronic transcriptions</title>
-            <respStmt>
-               <persName xml:id="pers12345" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Frédéric Chopin</persName>
-               <persName role="encoder">Maja Hartwig</persName>
-               <persName role="encoder">Kristina Richts</persName>
-            </respStmt>
-         </titleStmt>
-         <pubStmt>
-            <respStmt>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Musikwissenschaftliches Seminar, Detmold</corpName>
-            </respStmt>
-            <address>
-               <addrLine>Gartenstrasse 20</addrLine>
-               <addrLine>32756 <geogName codedval="7004442" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                            authority="TGN">Detmold</geogName>
-               </addrLine>
-               <addrLine>
-                  <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                            authority="TGN">Germany</geogName>
-               </addrLine>
-            </address>
-            <date>2011</date>
-            <availability>
-               <useRestrict>This encoding is in the public domain. However, the sources used to create it may be under copyright. We believe their use by the MEI project for educational and
-                        research purposes is covered by the Fair Use doctrine. However, we will remove any material from the project archive when requested to do so by the copyright
-                        owner.</useRestrict>
-            </availability>
-         </pubStmt>
-         <seriesStmt>
-            <title>MEI Sample Collection</title>
-            <respStmt>
-               <corpName role="publisher">MEI Project</corpName>
-               <corpName role="funder" codedval="2007744-0" authURI="http://d-nb.info/gnd"
-                         authority="GND">German Research
-                        Foundation<address>
-                     <addrLine>Kennedyallee 40</addrLine>
-                     <addrLine>
-                        <geogName codedval="7005090" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Bonn</geogName>
-                     </addrLine>
-                     <addrLine>
-                        <geogName codedval="7000084" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Germany</geogName>
-                     </addrLine>
-                  </address>
-               </corpName>
-               <corpName role="funder" codedval="18183-3" authURI="http://d-nb.info/gnd/18183-3"
-                         authority="Deutsche Nationalbibliothek">National Endowment for the
-                        Humanities<address>
-                     <addrLine>1100 Pennsylvania Avenue N.W.</addrLine>
-                     <addrLine>
-                        <geogName codedval="7013962" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">Washington, DC</geogName> 20004</addrLine>
-                     <addrLine>
-                        <geogName codedval="7012149" authURI="www.getty.edu/research/tools/vocabularies/tgn"
-                                  authority="TGN">United States</geogName>
-                     </addrLine>
-                  </address>
-               </corpName>
-            </respStmt>
-            <identifier>
-               <ref target="http://music-encoding.org/Support/MEI_Sample_Collection"/>
-            </identifier>
-         </seriesStmt>
-         <sourceDesc>
-            <source>
-               <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/3/30/IMSLP00313-Chopin_-_OP10_9.PDF</identifier>
-               <identifier type="referenceNumber">op. 10</identifier>
-               <titleStmt>
-                  <title>Etude No. 9 in F minor</title>
-                  <title type="uniform">Etüden, Kl, op. 10,9</title>
-                  <respStmt>
-                     <persName role="composer" codedval="118520539" authority="GND"
-                               authURI="http://d-nb.info/gnd">Frédéric Chopin</persName>
-                     <persName role="dedicatee">Franz Liszt</persName>
-                     <persName role="editor">Karl Klindworth</persName>
-                  </respStmt>
-               </titleStmt>
-               <pubStmt>
-                  <respStmt>
-                     <corpName role="publisher">Bote &amp; Bock</corpName>
-                  </respStmt>
-                  <pubPlace>Berlin</pubPlace>
-               </pubStmt>
-               <physDesc>
-                  <plateNum>12281(a-l)</plateNum>
-               </physDesc>
-            </source>
-            <source>
-               <identifier type="UIRI">http://kern.ccarh.org/cgi-bin/ksdata?l=users/craig/classical/chopin/etude&amp;file=etude10-09.krn&amp;f=xml</identifier>
-               <titleStmt>
-                  <title>Etude in F Minor</title>
-               </titleStmt>
-               <pubStmt>
-                  <date isodate="2011-05-12"/>
-                  <respStmt>
-                     <corpName>CCARH, Stanford University</corpName>
-                  </respStmt>
-                  <address>
-                     <addrLine>Center for Computer Research in Music and Acoustics</addrLine>
-                     <addrLine>Department of Music,</addrLine>
-                     <addrLine>Stanford University</addrLine>
-                     <addrLine>Stanford, California 94305-8180, USA</addrLine>
-                  </address>
-               </pubStmt>
-            </source>
-         </sourceDesc>
-      </fileDesc>
+          <fileDesc>
+            <titleStmt>
+                <title>Little Black Submarines</title>
+            </titleStmt>
+            <pubStmt></pubStmt>
+        </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001153681641">
             <appInfo xml:id="appinfo-0000001655020061">
                 <application xml:id="application-0000002097128626" isodate="2019-10-10T13:13:31" version="2.2.0-dev-c01b3a1-dirty">
                     <name xml:id="name-0000000237205657">Verovio</name>
                     <p xml:id="p-0000000333384292">Transcoded from MusicXML</p>
                 </application>
-              <projectDesc> <p> This piece is a part of the dataset created for Music Curation and Analytics. </p> </projectDesc>
             </appInfo>
         </encodingDesc>
-        <workList>
-          <title> Little Black Submarines </title>
-          <composer> The Black Keys </composer>
-          <lyricst>
-            <name> Dan Auerbach </name>
-            <name> Patrick Carney </name>
-            <name> Danger Mouse </name>
-          </lyricst>
-          <creation>
-            <date> 2011 </date>
-            <geogName> Nashville, Tennessee </geogName>
-          </creation> 
-        </workList>
     </meiHead>
     <music>
         <body>
