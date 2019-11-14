@@ -144,7 +144,7 @@ mei-editionstmt > mei-date {
 mei-pubstmt > mei-publisher {
 	display: none; }
 	  
-mei-pubstmt > mei-address > mei-date::before {
+mei-pubstmt > mei-date::before {
 	content:",";
 	  }
 	  
@@ -185,9 +185,54 @@ mei-appinfo > mei-application > mei-p {
 	display:none;
 	  }
 
-
+mei-worklist > mei-title::before {
+	content: "Original Piece of Work";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+mei-worklist > mei-title {
+	display: block;
+	  }
 	  
+mei-worklist > mei-composer::before {
+	content: "Artist:";
+	font-family: Arial;
+	font-weight: bold;
+	  }
+	
+mei-worklist > mei-composer {
+	display:block ;
+	  }
 
+mei-worklist > mei-lyricist {
+	display: block;
+	  }
+	  
+mei-worklist > mei-lyricist::before {
+	content: "Lyrics:";
+	  }
+	  
+mei-worklist > mei-date::before {
+	content: "Released:";
+	font-family: Arial;
+	font-weight: bold;
+	  }
+	  
+mei-worklist > mei-date {
+	display: block;
+	  }
+	  
+mei-worklist > mei-geogname {
+	display:block;
+	  }
+	  
+mei-worklist > mei-geogname::before {
+	content: "Location:";
+	font-family: Arial;
+	font-weight: bold;
+	  }
   </style>
 <script src="CETEI.js"></script>
 </head>
