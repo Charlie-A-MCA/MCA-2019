@@ -115,6 +115,7 @@ mei-editionstmt > #subtitle {
 mei-editionstmt > mei-arranger::before {
 	content: "Arranger:";
 	font-family: Arial;
+	font-weight: bold;
 	  }
 	  
 mei-editionstmt > mei-arranger {
@@ -128,6 +129,7 @@ mei-editionstmt > mei-respstmt > mei-resp {
 mei-editionstmt > mei-respstmt > mei-name::before {
 	content: "Published on:";
 	font-family: Arial;
+	font-weight: bold;
 	  }
 	  
 mei-editionstmt > mei-respstmt > mei-name {
@@ -142,15 +144,15 @@ mei-editionstmt > mei-date {
 mei-pubstmt > mei-publisher {
 	display: none; }
 	  
-mei-pubstmt > mei-geogname:: after {
+mei-pubstmt > mei-address > mei-geogname::after {
 	content:",";
 	  }
 	  
-mei-pubstmt > mei-availability > mei-userrestrict::before {
+mei-pubstmt > mei-availability > mei-userestrict::before {
 	content: "This file is protected under";
 	  }
 	  
-mei-pubstmt > mei-availability > mei-userrestrict {
+mei-pubstmt > mei-availability > mei-userestrict {
 	display: block;
 	  }
 	  
