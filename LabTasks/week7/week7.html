@@ -68,7 +68,28 @@ mei-titlestmt > mei-composer::before {
 	font-family: Arial;
 	font-weight: bold;
     }  
-	  
+mei-titlestmt > mei-arranger {
+	display: block;
+    }
+
+mei-titlestmt > mei-composer::before {
+	content: "Arrangement by:";
+	font-family: Arial;
+	font-weight: bold;
+    }
+mei-titlestmt > mei-respstmt > mei-resp {
+	display: none;
+    }
+
+mei-titlestmt >  mei-respstmt > mei-resp > mei-name {
+	display:block;
+	  }
+
+mei-titlestmt >  mei-respstmt > mei-resp > mei-name::before {
+	content: "Encoded by:";
+	font-family: Arial;
+	font-weight: bold;
+    }	 
   </style>
 <script src="CETEI.js"></script>
 </head>
