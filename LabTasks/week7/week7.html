@@ -132,11 +132,55 @@ mei-editionstmt > mei-respstmt > mei-name::before {
 	  
 mei-editionstmt > mei-respstmt > mei-name {
 	display: block;
+	margin-bottom: 30px;
 	  }
 	  
 mei-editionstmt > mei-date {
 	display: none;
 	  }
+	  
+mei-pubstmt > mei-publisher {
+	display: none; }
+	  
+mei-pubstmt > mei-geogname:: after {
+	content:",";
+	  }
+	  
+mei-pubstmt > mei-availability > mei-userrestrict::before {
+	content: "This file is protected under";
+	  }
+	  
+mei-pubstmt > mei-availability > mei-userrestrict {
+	display: block;
+	  }
+	  
+mei-seriesstmt > mei-title {
+	display: none;
+	  }
+	  
+mei-seriesstmt > mei-content {
+	display: none;
+	  }
+	  
+mei-seriesstmt > mei-editor {
+	display: none;
+	  }
+	  
+mei-application > mei-name {
+	display: none;
+	  }
+	  
+mei-application > mei-project {
+	display: none;
+	  }
+	  
+mei-appinfo > mei-projectdesc {
+	display: block;
+	margin-bottom: 30px;
+	  }
+	  
+
+
 	  
 
   </style>
