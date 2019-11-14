@@ -6,7 +6,7 @@
     <fileDesc>
         <titleStmt>
             <title>Little Black Submarines</title>
-            <title type="subtitle"> An arrangement for voice and piano </title>
+            <title id="subtitle" type="subtitle"> An arrangement for voice and piano </title>
             <composer> The Black Keys </composer>
             <arranger> Anna Poole </arranger>
             <respStmt>
