@@ -89,27 +89,49 @@ mei-titlestmt >  mei-respstmt > mei-name::before {
 	content: "Encoded by:";
 	font-family: Arial;
 	font-weight: bold;
+	margin-bottom:50px;
     }	
 mei-extent {
 	display:none;}
 	  
 mei-editionstmt > mei-title::before {
-	margin-top: 50px;
 	content: "Source of Transcription";
 	text-transform: uppercase;
 	font-family: Arial Black;
 	font-size: 12px;
+	display:block;
 	  }
 
-mei-editionstmt > mei-title[type="subtitle"]::before {
-	content: "(";
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    	font-size: 16px;
+
+mei-editionstmt > mei-title[type="subtitle"] {
+	display:block;
 	  }
-mei-editionstmt > mei-title[type="subtitle"]::after {
-	content: ") \A";
+	 
+mei-editionstmt > mei-arranger::before {
+	content: "Arranger:";
+	font-family: Arial;
 	  }
 	  
+mei-editionstmt > mei-arranger {
+	display:block;
+	  }
+	  
+mei-editionstmt > respstmt > resp {
+	display:none;
+	  }
+	  
+mei-editionstmt > respstmt > name::before {
+	content: "Published on:";
+	font-family: Arial;
+	  }
+	  
+mei-editionstmt > respstmt > name {
+	display: block;
+	  }
+	  
+mei-editionstmt > mei-date {
+	display: none;
+	  }
 	  
 
   </style>
