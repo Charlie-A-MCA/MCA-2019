@@ -40,6 +40,7 @@ authority="Creative Commons"> Creative Commons Attribution 4.0 International, CC
         <seriesStmt>
           <title> Music Curation and Analytics 2019 Dataset </title>
           <editor> Katja Andric </editor>
+           <content> At the moment, this is the only file in the series. </content>
         </seriesStmt>
     </fileDesc>
     <encodingDesc xml:id="encodingdesc-0000001153681641">
