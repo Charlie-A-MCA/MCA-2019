@@ -89,7 +89,36 @@ mei-titlestmt >  mei-respstmt > mei-name::before {
 	content: "Encoded by:";
 	font-family: Arial;
 	font-weight: bold;
-    }	 
+    }	
+extent {
+	display:none;}
+	  
+mei-editionstmt > mei-title::before {
+	content: "Source of Transcription";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+mei-editionstmt > mei-title {
+	display:block;
+	  }
+	  
+mei-editionstmt > mei-title::before {
+	content: "Title:";
+	font-family: Arial;
+	font-weight: bold;
+	  }
+
+mei-editionstmt > mei-title[type="subtitle']::before {
+	content: "(";
+	  }
+mei-editionstmt > mei-title[type="subtitle']::after {
+	content: ")";
+	  }
+	  
+	  
+
   </style>
 <script src="CETEI.js"></script>
 </head>
