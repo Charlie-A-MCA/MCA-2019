@@ -65,6 +65,9 @@ authority="Creative Commons"> Creative Commons Attribution 4.0 International, CC
         <date> 2011 </date>
         <geogName> Nashville, Tennessee </geogName>
       </creation>
+      <classification>
+          <genre> Blues Rock </genre>
+      </classification>
     </workList>
     </meiHead>
     <music>
