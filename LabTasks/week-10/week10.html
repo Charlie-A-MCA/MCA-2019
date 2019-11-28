@@ -2,6 +2,7 @@
 <html>
 <head>
   <title> Week 10: Audio Similarity and Transcription </title> 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
   <style> 
   .container {
   max-width: 1012px;
@@ -26,7 +27,19 @@
     font-size: 24px;
     border-bottom: 1px solid #eaecef;
 	}
+      .swiper-container {
+    width: 900px;
+    height: 700px;
+    margin-top: 20px;
+    }
     
+    .swiper-container>img{
+    width: 800px;
+    height: 550px;
+    }
+   .swiper-wrapper {
+   text-align:center;
+   }
    table {
    width: 100%;
 	margin-top:50px;
@@ -47,12 +60,49 @@
 <body>
 	<div class="container"> 
   <h1> Week 10: Audio Similarity and Transcription </h1>
-  <h2> Task 1:  </h2>
-  <p> hello 
+  <h2> Task 1: Similarity </h2>
+  <p> For this part of the task, I have used the same tracks fromt the previous 3 weeks. 
+In the similarity matrix below, tracks 0-3 fall within classical genre, 
+	  tracks 4-6 fall within the rock genre, and tracks 7-9 are my tracks.
+	  Track 7 is Mary Roose, and is classified as blues, track 8 is Gradual Sunrise 
+	  and falls within rock, while track 9 is Lullaby and is classified as classical. The
+	  matrix reflects this as tracks 0-3 and track 9 are more similar to each other than 
+	  any other tracks. Tracks 4-8 are also similar to each other, although there is not 
+	  much difference between rock songs and the blues song. However, this can be explained with
+	  the fact that rock and blues are generally quite similar genres.
   </p>
-	<h2> Task 2: </h2>
-	<p> hello 2 </p>
+		<img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/similarity-matrix.png?raw=true"/>
+	<h2> Task 2: Transcription </h2>
+	  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-1.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-2.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-3.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-4.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-5.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-6.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-7.png?raw=true"></div>
+        <div class="swiper-slide"><img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-8.png?raw=true"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
 <a href="https://katja-andric.github.io/MCA-2019/LabTasks/week9/week9.html"> << week 9: Analysing and Extracting Meaning from Audio </a> 
 </div>
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+</script>
 </body>
 </html>
