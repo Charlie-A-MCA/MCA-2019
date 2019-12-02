@@ -61,13 +61,14 @@ img {
 <body>
 	<div class="container"> 
   <h1> Week 9: Analysing and Extracting Meaning from Audio </h1>
-  <h2> Task 1: Extract Features </h2>
-		For this week's task I used the same tracks from last week's task. Below are the screenshots of the transformations we had to do in Sonic Visualiser. 
+  <h2> Task 1: Extracting Features </h2>
+		For this week's task I used the same tracks from last week's task. Below are the screenshots of the transformations (Spectrogram, Mel Frequency Cepstral Coefficient and Chromgram)
+		we had to do in Sonic Visualiser. 
   <table id="screenshots">
 	  <tr> 
-		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/gradual-sunrise.png?raw=true"> </td>
-		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/lullaby.png?raw=true"> </td>
-		<td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/marie-roose-CB.png?raw=true"> </td>
+		  <td> <a href="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/gradual-sunrise.png?raw=true"> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/gradual-sunrise.png?raw=true"> </a> </td>
+		  <td> <a href="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/lullaby.png?raw=true"> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/lullaby.png?raw=true"> </a> </td>
+		<td> <a href="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/marie-roose-CB.png?raw=true"> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/marie-roose-CB.png?raw=true"> </a> </td>
 	  </tr>
 	  <tr> 
 		  <td> Gradual Sunrise </td>
@@ -76,8 +77,9 @@ img {
 			
 	  </tr>
 </table>
-	<h2> Task 2: Compute and visualise histograms of features </h2>
-	<h3> Histograms computed from spectograms</h3>
+	<h2> Task 2: Computing and visualising histograms of features </h2>
+		<h3> Task 2.1: Computing and visualising histograms </h3>
+	<h4> Histograms computed from spectograms</h4>
 	<table id="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-spectrogram/gradual-sunrise-histogram-spectrogram.png?raw=true"> </td>
@@ -89,7 +91,7 @@ img {
 		  <td> Lullaby </td>
 		  <td> Mary Roose </td>
 		</table>
-		<h3> Histograms computed from MFCCs</h3>
+		<h4> Histograms computed from MFCCs</h4>
 	<table id="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-mfcc/gradual-sunrise-histogram-mfcc.png?raw=true"> </td>
@@ -101,7 +103,10 @@ img {
 		  <td> Lullaby </td>
 		  <td> Mary Roose </td>
 </table> 
-		<h3> Histograms computed from chromagrams</h3>
+		<h4> Histograms computed from chromagrams</h4>
+		<p> Chromagram is used for analysing harmonic and melodic features of music. Chroma features 
+		roughly correspond to 12 pitch classes (C, C#, D, D#, E ,F, F#, G, G#, A, A#, B), which is why
+		I have adapted the Python code to create 12 histograms - one for each pitch class. </p>
 	<table id="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-chromagram/gradual-sunrise-histogram-chromagram-new.png?raw=true"> </td>
@@ -112,7 +117,9 @@ img {
 		  <td> Gradual Sunrise </td>
 		  <td> Lullaby </td>
 		  <td> Mary Roose </td>
-</table> 		
+</table> 
+		<h3> Task 2.2: Comparing the histograms </h3>
+		<p> hello </p>
 <table> 
 	
 	<tr> 
