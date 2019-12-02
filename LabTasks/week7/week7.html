@@ -273,7 +273,7 @@ mei-worklist > mei-classification > mei-genre::before {
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'Little_Black_Submarines_week5_1.mei';
+      var file = 'Little_Black_Submarines_week7.mei';
       // A MEI file
       //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
@@ -288,7 +288,7 @@ mei-worklist > mei-classification > mei-genre::before {
   <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5('Little_Black_Submarines_week5_1.mei', function(data) {
+    CETEIcean.getHTML5('Little_Black_Submarines_week7.mei', function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -298,7 +298,7 @@ mei-worklist > mei-classification > mei-genre::before {
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5('Little_Black_Submarines_week5_1.mei', function(data) {
+    CETEI4MEI.getHTML5('Little_Black_Submarines_week7.mei', function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -312,7 +312,7 @@ mei-worklist > mei-classification > mei-genre::before {
         scale: 50,
         adjustPageHeight: true
     })
-    fetch('Little_Black_Submarines_week5_1.mei').then(function( response ) {
+    fetch('Little_Black_Submarines_week7.mei').then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
