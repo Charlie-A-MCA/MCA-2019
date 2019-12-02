@@ -42,21 +42,9 @@
    .swiper-wrapper {
    text-align:center;
    }
-   table {
-   width: 100%;
-	margin-top:50px;
-   margin-bottom: 50px;
-   margin-right: 30px;
-   margin-left:30px;
-   }
-   
-   td {
-   width: 50%;
-   } 
-   
-   #right {
-   text-align: right;
-   }
+	#nav {
+	  margin: 30px;
+	  }
 	  
 	#matrix {
 		float:right;
@@ -67,9 +55,9 @@
 <body>
 	<div class="container"> 
   <h1> Week 10: Audio Similarity and Transcription </h1>
-  <h2> Task 1: Similarity </h2>
+  <h2> Task 1: Generating a Similarity Matrix </h2>
   <p><img id="matrix" src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/similarity-matrix.png?raw=true"/> For this part of the task, I have used the same tracks from the previous 2 weeks. 
-In the similarity matrix, tracks 0-3 fall within classical genre, 
+In the similarity matrix, tracks 0-3 fall within the classical genre, 
 	  tracks 4-6 fall within the rock genre, and tracks 7-9 are my tracks.
 	  Track 7 is Mary Roose, and is classified as blues, track 8 is Gradual Sunrise 
 	  and falls within rock, while track 9 is Lullaby and is classified as classical. The
@@ -80,6 +68,11 @@ In the similarity matrix, tracks 0-3 fall within classical genre,
   </p>
 		
 	<h2> Task 2: Transcription </h2>
+		<p> For this task, I have decided to transcribe the file I generated in week 2, that is, my 
+			Little Black Submarines file. This was done by first exporting the MuseScore file into a wav file, 
+			then importing it into Sonic visualiser and transforming it into a piano roll which was exported as a MIDI file. 
+			The MIDI file was then open by MuseScore and exported as an image. Below is a page-by-page comparison of the 
+			original notated file I created (on the left) and the transcribed file from this week (on the right): <p>
 	  <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img class="pages" src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week-10/screenshots-task2/page-2.png?raw=true"></div>
@@ -95,7 +88,8 @@ In the similarity matrix, tracks 0-3 fall within classical genre,
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 </div>
-<a href="https://katja-andric.github.io/MCA-2019/LabTasks/week9/week9.html"> << week 9: Analysing and Extracting Meaning from Audio </a> 
+<p> The difference between the files is apparent. </p>
+<a id="nav" href="https://katja-andric.github.io/MCA-2019/LabTasks/week9/week9.html"> << week 9: Analysing and Extracting Meaning from Audio </a> 
 </div>
 <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 <script>
