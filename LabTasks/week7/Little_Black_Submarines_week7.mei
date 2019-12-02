@@ -6,7 +6,7 @@
     <fileDesc>
         <titleStmt>
             <title xml:id="title1">Little Black Submarines</title>
-            <title type="subtitle"> An arrangement for voice and piano </title>
+            <title id="subtitle" type="subtitle"> An arrangement for voice and piano </title>
             <composer xml:id="composer1"> The Black Keys </composer>
             <arranger xml:id="arranger1" authURI="https://musescore.com/user/9532736/scores/5661552" authority="MuseScore"> Anna Poole </arranger>
             <respStmt>
