@@ -62,7 +62,7 @@ img {
 	<div class="container"> 
   <h1> Week 9: Analysing and Extracting Meaning from Audio </h1>
   <h2> Task 1: Extracting Features </h2>
-		For this week's task I used the same tracks from last week's task. Below are the screenshots of the transformations (Spectrogram, Mel Frequency Cepstral Coefficient and Chromgram)
+		For this week's task I used the same tracks from last week's task. Below are the screenshots of the transformations (Spectrogram, Mel Frequency Cepstral Coefficient and Chromagram)
 		we had to do in Sonic Visualiser. 
   <table id="screenshots">
 	  <tr> 
@@ -92,6 +92,8 @@ img {
 		  <td> Mary Roose </td>
 		</table>
 		<h4> Histograms computed from MFCCs</h4>
+		<p> Since the mel frequency cepstral coefficients are a set of 20 features that are, when combined, usually
+			used to describe timbre, below are three sets of 20 histograms (1 histogram for each feature). </p>
 	<table id="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-mfcc/gradual-sunrise-histogram-mfcc.png?raw=true"> </td>
@@ -106,7 +108,8 @@ img {
 		<h4> Histograms computed from chromagrams</h4>
 		<p> Chromagram is used for analysing harmonic and melodic features of music. Chroma features 
 		roughly correspond to 12 pitch classes (C, C#, D, D#, E ,F, F#, G, G#, A, A#, B), which is why
-		I have adapted the Python code to create 12 histograms - one for each pitch class. </p>
+		I have adapted the Python code to create 12 histograms - one for each pitch class. The differences
+		in the histograms represent the differences in the three songs. </p>
 	<table id="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-chromagram/gradual-sunrise-histogram-chromagram-new.png?raw=true"> </td>
@@ -119,7 +122,15 @@ img {
 		  <td> Mary Roose </td>
 </table> 
 		<h3> Task 2.2: Comparing the histograms </h3>
-		<p> hello </p>
+		<p> For this part of the task, I have decided to compare histograms computed from mel frequency cepstral
+		coefficients for each track. MFCC is usually used to analyse timber, that is the tone colour or quality. 
+		Considering the three tracks I am comparing are all from different genres and do not have the same instruments
+		present, the MFCCs should be different for all three tracks. This is indeed the case, as we can see from 
+		the histograms above. Moreover, the histograms for Gradual Sunrise and Mary Roose 
+		seem to be slighly more similar to each other, than either of them is to Lullaby. This makes sense since the former are
+		an indie rock and a blues songs that have some similar instruments, while the latter is a classical song with
+		only a piano (and a voice) present. However, all three sets of histograms are distinct from each other, with the
+		biggest difference being feature 0. </p>
 <table> 
 	
 	<tr> 
