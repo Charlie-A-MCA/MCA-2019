@@ -73,13 +73,13 @@ vertical-align: middle;
 	  }
 	  
 	
-#screenshots {
+.screenshots {
 	width: 100%;
 	text-align:center;
 	color: #24292e;
 	  }
 	  
-#screenshots,td {
+.screenshots>td {
 	width:33%;
 	color: #24292e;}
 	  
@@ -108,7 +108,7 @@ img {
   <h2> Task 1: Extracting Features </h2>
 		For this week's task I used the same tracks from last week's task. Below are the screenshots of the transformations (Spectrogram, Mel Frequency Cepstral Coefficient and Chromagram)
 		we had to do in Sonic Visualiser. 
-  <table id="screenshots">
+  <table class="screenshots">
 	  <tr> 
 		  <td> <a href="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/gradual-sunrise.png?raw=true"> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/gradual-sunrise.png?raw=true"> </a> </td>
 		  <td> <a href="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/lullaby.png?raw=true"> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/lullaby.png?raw=true"> </a> </td>
@@ -124,7 +124,7 @@ img {
 	<h2> Task 2: Computing and visualising histograms of features </h2>
 		<h3> Task 2.1: Computing and visualising histograms </h3>
 	<h4> Histograms computed from spectograms</h4>
-	<table id="screenshots">
+	<table class="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-spectrogram/gradual-sunrise-histogram-spectrogram.png?raw=true"> </td>
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-spectrogram/lullaby-histogram-spectrogram.png?raw=true"> </td>
@@ -138,7 +138,7 @@ img {
 		<h4> Histograms computed from MFCCs</h4>
 		<p> Since the mel frequency cepstral coefficients are a set of 20 features that are, when combined, usually
 			used to describe timbre, below are three sets of 20 histograms (1 histogram for each feature). </p>
-	<table id="screenshots">
+	<table class="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-mfcc/gradual-sunrise-histogram-mfcc.png?raw=true"> </td>
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-mfcc/lullaby-histogram-mfcc.png?raw=true"> </td>
@@ -154,7 +154,7 @@ img {
 		roughly correspond to 12 pitch classes (C, C#, D, D#, E ,F, F#, G, G#, A, A#, B), which is why
 		I have adapted the Python code to create 12 histograms - one for each pitch class. The differences
 		in the histograms represent the differences in the three songs. </p>
-	<table id="screenshots">
+	<table class="screenshots">
 		 <tr> 
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-chromagram/gradual-sunrise-histogram-chromagram-new.png?raw=true"> </td>
 		  <td> <img src="https://github.com/katja-andric/MCA-2019/blob/master/LabTasks/week9/histograms/from-chromagram/lullaby-histogram-chromagram-new.png?raw=true"> </td>
