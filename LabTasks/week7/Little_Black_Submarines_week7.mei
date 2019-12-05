@@ -5,7 +5,7 @@
     <meiHead>
     <fileDesc>
         <titleStmt>
-            <title xml:id="title1">Little Black Submarines</title>
+            <title xml:id="title1" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz" >Little Black Submarines</title>
             <title id="subtitle" type="subtitle"> An arrangement for voice and piano </title>
             <composer xml:id="composer1"> The Black Keys </composer>
             <arranger xml:id="arranger1" authURI="https://musescore.com/user/9532736/scores/5661552" authority="MuseScore"> Anna Poole </arranger>
@@ -54,14 +54,14 @@ authority="Creative Commons"> Creative Commons Attribution 4.0 International, CC
         </appInfo>
     </encodingDesc>
     <workList>
-      <title xml:id="title2" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines"> Little Black Submarines </title>
-      <composer xml:id="composer2" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines"> The Black Keys </composer>
+      <title xml:id="title2" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Little Black Submarines </title>
+      <composer xml:id="composer2" authURI="https://musicbrainz.org/artist/d15721d8-56b4-453d-b506-fc915b14cba2" authority="Linked Brainz"> The Black Keys </composer>
       <lyricst>
-        <name xml:id="lyricst1" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines"> Dan Auerbach </name>
-        <name xml:id="lyricst2" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines"> Patrick Carney </name>
-        <name xml:id="lyricst3" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines"> Danger Mouse </name>
+        <name xml:id="lyricst1" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Dan Auerbach </name>
+        <name xml:id="lyricst2" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Patrick Carney </name>
+        <name xml:id="lyricst3" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Danger Mouse </name>
       </lyricst>
-      <creation xml:id="creation_original" authURI="https://en.wikipedia.org/wiki/Little_Black_Submarines">
+      <creation xml:id="creation_original" authURI="https://musicbrainz.org/artist/d15721d8-56b4-453d-b506-fc915b14cba2" authority="Linked Brainz">
         <date> 2011 </date>
         <geogName> Nashville, Tennessee </geogName>
       </creation>
