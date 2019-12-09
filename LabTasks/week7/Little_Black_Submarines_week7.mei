@@ -57,9 +57,9 @@ authority="Creative Commons"> Creative Commons Attribution 4.0 International, CC
       <title xml:id="title2" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Little Black Submarines </title>
       <composer xml:id="composer2" authURI="https://musicbrainz.org/artist/d15721d8-56b4-453d-b506-fc915b14cba2" authority="Linked Brainz"> The Black Keys </composer>
       <lyricst>
-        <name xml:id="lyricst1" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Dan Auerbach </name>
-        <name xml:id="lyricst2" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Patrick Carney </name>
-        <name xml:id="lyricst3" authURI="https://musicbrainz.org/release-group/dce20a81-1784-4ac3-852c-567bc954a769" authority="Linked Brainz"> Danger Mouse </name>
+        <name xml:id="lyricst1" authURI="https://musicbrainz.org/artist/fa4f4b89-3ddc-4e97-88fa-0e30121f986a" authority="Linked Brainz"> Dan Auerbach </name>
+        <name xml:id="lyricst2" authURI="https://musicbrainz.org/artist/49619623-d031-4cec-8893-c2025ab45256" authority="Linked Brainz"> Patrick Carney </name>
+        <name xml:id="lyricst3" authURI="https://musicbrainz.org/artist/4b356f05-bcc2-4544-925b-fd9a1bf708be" authority="Linked Brainz"> Danger Mouse </name>
       </lyricst>
       <creation xml:id="creation_original" authURI="https://musicbrainz.org/artist/d15721d8-56b4-453d-b506-fc915b14cba2" authority="Linked Brainz">
         <date> 2011 </date>
